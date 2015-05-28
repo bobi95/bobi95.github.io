@@ -283,14 +283,14 @@ body, header, main, footer {
 	overflow: hidden;
 }
 
-.header .header-subtext div {
+.header .header-subtext span {
 	display: inline-block;
 	position: relative;
 	margin: 0 60px 0 60px;
 }
 
-.header .header-subtext div::before,
-.header .header-subtext div::after {
+.header .header-subtext span::before,
+.header .header-subtext span::after {
 	content: "";
 	position: absolute;
 	display: block;
@@ -301,11 +301,11 @@ body, header, main, footer {
 	top: 50%;
 }
 
-.header .header-subtext div::before {
+.header .header-subtext span::before {
 	left: -2030px;
 }
 
-.header .header-subtext div::after {
+.header .header-subtext span::after {
 	right: -2030px;
 }
 
